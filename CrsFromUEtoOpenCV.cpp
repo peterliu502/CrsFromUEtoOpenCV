@@ -10,7 +10,7 @@ struct Transformer
 	/* Translation of this transformation, as a vector. */
 	Vec3f Translation;
 
-	/* 3D scale (always applied in local space) as a vector. */
+	/* 3D scale (always applied in local space) as a vector. */ 
 	Vec3f Scale3D = (1, 1, 1);
 
 	Mat toMat() {
